@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  width:100%;
+  /* padding-top: 1rem; */
+  padding-bottom: 1rem;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin:auto;
+  background-color:  rgba(241, 231, 255, 0.568);
+  }
+header{
+  background:rgba(241, 231, 255, 0.979);
+  color:rgba(0, 0, 0, 0.787);
+  padding:4px;
+}
+#survey-form {
+  padding: 1rem;
+  border-radius: 14px;
+  text-align:left;
+  width:90%;
+  margin:auto;
+  }
+
+.form-group {
+    padding:10px;
+  }
+
+.form-group input [type=checkbox] {
+  display:block;
+  border: 1px;
+}
+#name {
+  margin-left: 10px;
+  width:300px;
+  height: 30px;
+
+}
+#email{
+  margin-left: 12px;
+  width:300px;
+  height: 30px;
+}
+#number {
+  width: 20%;
+  margin-left: 14px;
+  height: 30px;
+}
+#dropdown, #features {
+  width:60%;
+  height: 35px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.improve{
+  padding-bottom:2px;
+}
+
+.form-group textarea {
+  width:50%;
+ 
+}
+.submit{
+  width: 10em;  
+  height: 2em;
+  background-color:white;
+}
+
